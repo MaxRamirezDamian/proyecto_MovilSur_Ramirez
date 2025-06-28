@@ -1,0 +1,66 @@
+server:
+  port: 8081
+
+spring:
+  jackson:
+    date-format: dd/MM/yyyy HH:mm:ss
+    time-zone: America/Lima
+  application:
+    name: MovilSur_Apis
+  datasource:
+    properties:
+      oracle.jdbc.timezoneAsRegion: false
+      oracle.jdbc.fanEnable: false
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@sistemareserva_low?TNS_ADMIN=src/main/resources/Wallet_SistemaReserva
+    username: DEVELOPER_RAMIREZ
+    password: MovilSur_Max_03
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        format_sql: true
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql: trace
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    url: /v3/api-docs
+    config-url: /v3/api-docs/swagger-config
+    validator-url: ""
+    use-root-path: true
+    disable-swagger-default-url: true
+    operations-sorter: alpha
+    tags-sorter: alpha
+    persist-authorization: true
+
+
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health,info
+    endpoint:
+      health:
+        show-details: always
+
+  jwt:
+    secret: tu_clave_secreta
+    expiration: 86400000
