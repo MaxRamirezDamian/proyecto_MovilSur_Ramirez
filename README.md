@@ -8,9 +8,12 @@ El objetivo de este proyecto es apoyar a esta empresa mediante un aplicativo web
 este proyecto sigue la estructura hexagonal, y usamos oracleCloud para la base de datos y reportes
 springboot en swagger ui para backend y Angular para frontend web, asi mismo tambien flutter para el web movil
 
-proyecto web: todo esta en este repositorio
+proyecto web: todo esta en este repositorio o aqui https://studio.firebase.google.com/as232s4t12-fe-24908249
 
 proyecto movil: aqui https://studio.firebase.google.com/movilsur-movil-27966484
+
+
+las tablas que me corresponden son Vehiculos y viajes, maestro y transaccional respectivamente
 
 
 
