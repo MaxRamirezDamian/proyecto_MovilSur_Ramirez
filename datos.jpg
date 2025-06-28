@@ -1,0 +1,675 @@
+-- =====================================================
+-- INSERCIONES PARA SISTEMA DE TRANSPORTE - ORACLE
+-- =====================================================
+
+-- =====================================================
+-- 1. TABLA USERS (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_001', 'Carlos', 'Rodriguez', 'DNI', '12345678', 'carlos.rodriguez@gmail.com', '987654321', 'Av. Larco 123, Miraflores', 'https://example.com/photo1.jpg', 'crodriguez', 'pass123', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_002', 'Maria', 'Gonzalez', 'DNI', '87654321', 'maria.gonzalez@hotmail.com', '976543210', 'Jr. Cusco 456, Lima', 'https://example.com/photo2.jpg', 'mgonzalez', 'pass456', 'DRIVER', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_003', 'Juan', 'Perez', 'DNI', '11223344', 'juan.perez@yahoo.com', '965432109', 'Av. Brasil 789, Pueblo Libre', 'https://example.com/photo3.jpg', 'jperez', 'pass789', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_004', 'Ana', 'Lopez', 'CNE', '12345678901234567890', 'ana.lopez@gmail.com', '954321098', 'Calle Las Flores 321, San Isidro', 'https://example.com/photo4.jpg', 'alopez', 'pass321', 'ADMIN', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_005', 'Roberto', 'Martinez', 'DNI', '55667788', 'roberto.martinez@outlook.com', '943210987', 'Av. Javier Prado 654, San Borja', 'https://example.com/photo5.jpg', 'rmartinez', 'pass654', 'DRIVER', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_006', 'Laura', 'Silva', 'DNI', '99887766', 'laura.silva@gmail.com', '932109876', 'Jr. Amazonas 987, Cercado de Lima', 'https://example.com/photo6.jpg', 'lsilva', 'pass987', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_007', 'Diego', 'Ramirez', 'DNI', '44556677', 'diego.ramirez@hotmail.com', '921098765', 'Av. Colonial 147, Callao', 'https://example.com/photo7.jpg', 'dramirez', 'pass147', 'DRIVER', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_008', 'Carmen', 'Torres', 'DNI', '33445566', 'carmen.torres@yahoo.com', '910987654', 'Calle Real 258, Surquillo', 'https://example.com/photo8.jpg', 'ctorres', 'pass258', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_009', 'Fernando', 'Vargas', 'CNE', '98765432109876543210', 'fernando.vargas@gmail.com', '909876543', 'Av. Universitaria 369, Los Olivos', 'https://example.com/photo9.jpg', 'fvargas', 'pass369', 'DRIVER', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_010', 'Patricia', 'Mendoza', 'DNI', '22334455', 'patricia.mendoza@outlook.com', '998765432', 'Jr. Huancayo 741, Breña', 'https://example.com/photo10.jpg', 'pmendoza', 'pass741', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_011', 'Miguel', 'Castro', 'DNI', '66778899', 'miguel.castro@gmail.com', '987654320', 'Av. Tupac Amaru 852, Comas', 'https://example.com/photo11.jpg', 'mcastro', 'pass852', 'DRIVER', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_012', 'Sofia', 'Herrera', 'DNI', '77889900', 'sofia.herrera@hotmail.com', '976543219', 'Calle San Martin 963, Magdalena', 'https://example.com/photo12.jpg', 'sherrera', 'pass963', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_013', 'Andres', 'Morales', 'DNI', '88990011', 'andres.morales@yahoo.com', '965432108', 'Av. Venezuela 741, Cercado de Lima', 'https://example.com/photo13.jpg', 'amorales', 'pass741', 'ADMIN', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_014', 'Valeria', 'Jimenez', 'CNE', '11223344556677889900', 'valeria.jimenez@gmail.com', '954321097', 'Jr. Ica 852, Lince', 'https://example.com/photo14.jpg', 'vjimenez', 'pass852', 'CLIENT', 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.USERS (firebase_id, first_name, last_name, document_type, document_number, email, phone, address, user_photo, username, password, user_type, status) VALUES
+('firebase_015', 'Ricardo', 'Delgado', 'DNI', '10203040', 'ricardo.delgado@outlook.com', '943210986', 'Av. Salaverry 159, Jesus Maria', 'https://example.com/photo15.jpg', 'rdelgado', 'pass159', 'DRIVER', 'ACTIVE');
+
+-- =====================================================
+-- 2. TABLA PAYMENT_METHOD (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_RAMIREZ.PAYMENT_METHOD (payment_type, status) VALUES ('EFECTIVO', 'ACTIVE');
+INSERT INTO DEVELOPER_RAMIREZ.PAYMENT_METHOD (payment_type, status) VALUES ('YAPE', 'ACTIVE');
+INSERT INTO DEVELOPER_RAMIREZ.PAYMENT_METHOD (payment_type, status) VALUES ('PLIN', 'ACTIVE');
+
+-- =====================================================
+-- 3. TABLA SERVICE_TYPES (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Taxi Economico', 'Servicio basico de taxi', 5.00, 1.50, 0.30, 8.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Taxi Premium', 'Servicio premium con vehiculos de lujo', 10.00, 2.50, 0.50, 15.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Pool Compartido', 'Viaje compartido con otros pasajeros', 3.00, 1.00, 0.20, 5.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Express', 'Servicio rapido y directo', 8.00, 2.00, 0.40, 12.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('XL Grande', 'Para grupos grandes hasta 7 personas', 12.00, 3.00, 0.60, 18.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Delivery', 'Servicio de entrega de paquetes', 6.00, 1.80, 0.35, 10.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Aeropuerto', 'Servicio especializado al aeropuerto', 15.00, 2.20, 0.45, 20.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Nocturno', 'Servicio nocturno con tarifa especial', 7.00, 2.00, 0.40, 12.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Ejecutivo', 'Servicio para ejecutivos', 20.00, 3.50, 0.70, 25.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Familiar', 'Servicio familiar hasta 5 personas', 8.00, 1.80, 0.35, 12.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Turismo', 'Servicio turistico por horas', 25.00, 2.50, 1.00, 30.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Eco Friendly', 'Vehiculos ecologicos hibridos', 9.00, 1.70, 0.35, 13.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Moto Taxi', 'Servicio en motocicleta', 3.00, 0.80, 0.15, 4.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Van Cargo', 'Transporte de carga liviana', 15.00, 2.80, 0.55, 20.00, 'ACTIVE');
+
+INSERT INTO DEVELOPER_FATAMA.SERVICE_TYPES (name, description, base_cost, cost_per_km, cost_per_minute, minimum_cost, status) VALUES
+('Comfort', 'Servicio de comodidad media', 6.50, 1.60, 0.32, 9.50, 'ACTIVE');
+
+-- =====================================================
+-- 4. TABLA DRIVERS (15 registros)
+-- Nota: Necesitamos usar user_id de usuarios tipo DRIVER
+-- =====================================================
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'mgonzalez'), 'B', 'I', 'B12345678', DATE '2026-12-31', 5, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'rmartinez'), 'A', 'II', 'A98765432', DATE '2025-08-15', 8, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'dramirez'), 'C', 'III', 'C11223344', DATE '2027-03-20', 3, 'N', 'NO PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'fvargas'), 'B', 'I', 'B55667788', DATE '2026-06-10', 7, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'mcastro'), 'A', 'II', 'A33445566', DATE '2025-11-25', 4, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'rdelgado'), 'B', 'I', 'B77889900', DATE '2026-09-30', 6, 'N', 'NO PROFESIONAL', 'ACTIVE');
+
+-- Drivers adicionales (usando IDs genericos para completar 15)
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'D', 'II', 'D12098765', DATE '2025-12-15', 2, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'E', 'III', 'E54321098', DATE '2027-01-10', 9, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'F', 'I', 'F98712345', DATE '2026-04-05', 1, 'N', 'NO PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'B', 'II', 'B45678912', DATE '2025-07-20', 5, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'A', 'I', 'A78912345', DATE '2026-10-12', 3, 'Y', 'NO PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'C', 'III', 'C32165498', DATE '2027-02-28', 7, 'N', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'B', 'I', 'B65498732', DATE '2025-05-15', 4, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'A', 'II', 'A14785236', DATE '2026-08-03', 6, 'Y', 'PROFESIONAL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_BEINGOLEA.DRIVERS (user_id, license_type, license_category, license_number, license_expiration, experience_years, available, license_class, status) VALUES
+(SYS_GUID(), 'D', 'I', 'D96385274', DATE '2025-09-18', 2, 'N', 'NO PROFESIONAL', 'ACTIVE');
+
+-- =====================================================
+-- 5. TABLA VEHICLES (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B12345678'), 'ABC-123', 'Toyota', 'Corolla', 2020, 'Blanco', 'https://example.com/vehicle1.jpg', 5, 'DISPONIBLE', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A98765432'), 'DEF-456', 'Honda', 'Civic', 2019, 'Negro', 'https://example.com/vehicle2.jpg', 5, 'DISPONIBLE', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'C11223344'), 'GHI-789', 'Nissan', 'Frontier', 2021, 'Azul', 'https://example.com/vehicle3.jpg', 5, 'EN_MANTENIMIENTO', 'CAMIONETA', 'DIESEL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B55667788'), 'JKL-012', 'Hyundai', 'H1', 2018, 'Gris', 'https://example.com/vehicle4.jpg', 7, 'DISPONIBLE', 'MINIVAN', 'GAS', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A33445566'), 'MNO-345', 'Chevrolet', 'Aveo', 2020, 'Rojo', 'https://example.com/vehicle5.jpg', 5, 'OCUPADO', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B77889900'), 'PQR-678', 'Ford', 'Escape', 2022, 'Plata', 'https://example.com/vehicle6.jpg', 5, 'DISPONIBLE', 'CAMIONETA', 'HIBRIDO', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'D12098765'), 'STU-901', 'Volkswagen', 'Polo', 2019, 'Verde', 'https://example.com/vehicle7.jpg', 5, 'DISPONIBLE', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'E54321098'), 'VWX-234', 'Kia', 'Sportage', 2021, 'Amarillo', 'https://example.com/vehicle8.jpg', 5, 'DISPONIBLE', 'CAMIONETA', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'F98712345'), 'YZA-567', 'Suzuki', 'Swift', 2020, 'Naranja', 'https://example.com/vehicle9.jpg', 4, 'EN_MANTENIMIENTO', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B45678912'), 'BCD-890', 'Mitsubishi', 'Montero', 2018, 'Marrón', 'https://example.com/vehicle10.jpg', 7, 'DISPONIBLE', 'CAMIONETA', 'DIESEL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A78912345'), 'EFG-123', 'Peugeot', '208', 2021, 'Violeta', 'https://example.com/vehicle11.jpg', 5, 'DISPONIBLE', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'C32165498'), 'HIJ-456', 'Great Wall', 'Wingle', 2019, 'Celeste', 'https://example.com/vehicle12.jpg', 5, 'OCUPADO', 'CAMIONETA', 'DIESEL', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B65498732'), 'KLM-789', 'Mazda', '2', 2020, 'Turquesa', 'https://example.com/vehicle13.jpg', 5, 'DISPONIBLE', 'AUTO', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A14785236'), 'NOP-012', 'Subaru', 'Forester', 2022, 'Dorado', 'https://example.com/vehicle14.jpg', 5, 'DISPONIBLE', 'CAMIONETA', 'GASOLINA', 'ACTIVE');
+
+INSERT INTO DEVELOPER_RAMIREZ.VEHICLES (driver_id, license_plate, brand, model, year, color, vehicle_photo, seat_count, vehicle_status, vehicle_type, fuel_type, status) VALUES
+((SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'D96385274'), 'QRS-345', 'Renault', 'Duster', 2019, 'Rosado', 'https://example.com/vehicle15.jpg', 5, 'EN_MANTENIMIENTO', 'CAMIONETA', 'GAS', 'ACTIVE');
+
+-- =====================================================
+-- 6. TABLA TRIP (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'crodriguez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B12345678'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'ABC-123'),
+ 'Av. Larco 123, Miraflores', 'Jorge Chavez Airport', 
+ TIMESTAMP '2025-05-01 08:30:00', TIMESTAMP '2025-05-01 09:15:00', 
+ 2, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 1), 
+ 45.50, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Aeropuerto'), 
+ 25000, 2700);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'jperez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A98765432'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'DEF-456'),
+ 'Av. Brasil 789, Pueblo Libre', 'Plaza San Martin, Lima', 
+ TIMESTAMP '2025-05-02 14:20:00', TIMESTAMP '2025-05-02 14:50:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'EFECTIVO' AND ROWNUM = 1), 
+ 18.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Taxi Economico'), 
+ 8500, 1800);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'lsilva'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B55667788'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'JKL-012'),
+ 'Jr. Amazonas 987, Cercado de Lima', 'Mall Aventura Plaza', 
+ TIMESTAMP '2025-05-03 19:00:00', NULL, 
+ 4, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'PLIN' AND ROWNUM = 1), 
+ 32.50, 'EN_CURSO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'XL Grande'), 
+ 12000, NULL);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'ctorres'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A33445566'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'MNO-345'),
+ 'Calle Real 258, Surquillo', 'Hospital Nacional Dos de Mayo', 
+ TIMESTAMP '2025-05-04 07:45:00', TIMESTAMP '2025-05-04 08:20:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'TRANSFERENCIA' AND ROWNUM = 1), 
+ 22.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Express'), 
+ 9800, 2100);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'pmendoza'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B77889900'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'PQR-678'),
+ 'Jr. Huancayo 741, Breña', 'Universidad Nacional Mayor de San Marcos', 
+ TIMESTAMP '2025-05-05 06:30:00', TIMESTAMP '2025-05-05 07:00:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 2), 
+ 15.50, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Familiar'), 
+ 6500, 1800);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'sherrera'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'D12098765'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'STU-901'),
+ 'Calle San Martin 963, Magdalena', 'Centro Comercial Jockey Plaza', 
+ TIMESTAMP '2025-05-06 16:15:00', TIMESTAMP '2025-05-06 17:00:00', 
+ 2, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'EFECTIVO' AND ROWNUM = 2), 
+ 28.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Taxi Premium'), 
+ 11200, 2700);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'vjimenez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'E54321098'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'VWX-234'),
+ 'Jr. Ica 852, Lince', 'Terminal Terrestre Plaza Norte', 
+ NULL, NULL, 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'PLIN' AND ROWNUM = 2), 
+ 0.00, 'CANCELADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Taxi Economico'), 
+ NULL, NULL);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'crodriguez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B45678912'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'BCD-890'),
+ 'Av. Larco 123, Miraflores', 'Circuito Magico del Agua', 
+ TIMESTAMP '2025-05-07 20:30:00', TIMESTAMP '2025-05-07 21:15:00', 
+ 3, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'TRANSFERENCIA' AND ROWNUM = 2), 
+ 35.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Nocturno'), 
+ 15000, 2700);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'jperez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A78912345'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'EFG-123'),
+ 'Av. Brasil 789, Pueblo Libre', 'Barranco', 
+ TIMESTAMP '2025-05-08 11:00:00', TIMESTAMP '2025-05-08 11:45:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 3), 
+ 19.50, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Pool Compartido'), 
+ 7800, 2700);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'lsilva'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B65498732'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'KLM-789'),
+ 'Jr. Amazonas 987, Cercado de Lima', 'Museo de la Nacion', 
+ TIMESTAMP '2025-05-09 15:20:00', TIMESTAMP '2025-05-09 16:10:00', 
+ 2, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'EFECTIVO' AND ROWNUM = 3), 
+ 42.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Turismo'), 
+ 18500, 3000);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'ctorres'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A14785236'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'NOP-012'),
+ 'Calle Real 258, Surquillo', 'Parque de la Reserva', 
+ TIMESTAMP '2025-05-10 18:45:00', TIMESTAMP '2025-05-10 19:20:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'PLIN' AND ROWNUM = 3), 
+ 24.50, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Eco Friendly'), 
+ 10200, 2100);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'pmendoza'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'B12345678'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'ABC-123'),
+ 'Jr. Huancayo 741, Breña', 'Real Plaza Salaverry', 
+ TIMESTAMP '2025-05-11 12:30:00', NULL, 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'TRANSFERENCIA' AND ROWNUM = 3), 
+ 16.00, 'EN_CURSO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Comfort'), 
+ 7200, NULL);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'sherrera'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'A98765432'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'DEF-456'),
+ 'Calle San Martin 963, Magdalena', 'Clinica San Felipe', 
+ TIMESTAMP '2025-05-12 09:15:00', TIMESTAMP '2025-05-12 09:45:00', 
+ 1, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 4), 
+ 13.50, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Moto Taxi'), 
+ 4500, 1800);
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP (user_id, driver_id, vehicle_id, origin_address, destination_address, started_at, ended_at, seats_used, payment_method_id, total_cost, trip_status, service_type_id, distance_meters, duration_seconds) VALUES
+((SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE username = 'vjimenez'), 
+ (SELECT driver_id FROM DEVELOPER_BEINGOLEA.DRIVERS WHERE license_number = 'C32165498'),
+ (SELECT vehicle_id FROM DEVELOPER_RAMIREZ.VEHICLES WHERE license_plate = 'HIJ-456'),
+ 'Jr. Ica 852, Lince', 'Mercado Central de Lima', 
+ TIMESTAMP '2025-05-13 13:00:00', TIMESTAMP '2025-05-13 13:40:00', 
+ 2, (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'EFECTIVO' AND ROWNUM = 4), 
+ 28.00, 'COMPLETADO', 
+ (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Van Cargo'), 
+ 8900, 2400);
+
+-- =====================================================
+-- 7. TABLA TRIP_DETAILS (15 registros)
+-- =====================================================
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Larco 123, Miraflores' AND destination_address = 'Jorge Chavez Airport'),
+'Maleta grande con ropa', 1, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Larco 123, Miraflores' AND destination_address = 'Jorge Chavez Airport'),
+'Mochila con laptop', 1, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Brasil 789, Pueblo Libre' AND destination_address = 'Plaza San Martin, Lima'),
+'Carpeta con documentos', 1, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Jr. Amazonas 987, Cercado de Lima' AND destination_address = 'Mall Aventura Plaza'),
+'Bolsas de compras', 3, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Jr. Amazonas 987, Cercado de Lima' AND destination_address = 'Mall Aventura Plaza'),
+'Caja con electrodomestico', 1, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Calle Real 258, Surquillo' AND destination_address = 'Hospital Nacional Dos de Mayo'),
+'Medicamentos en bolsa termica', 1, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Jr. Huancayo 741, Breña' AND destination_address = 'Universidad Nacional Mayor de San Marcos'),
+'Libros universitarios', 5, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Calle San Martin 963, Magdalena' AND destination_address = 'Centro Comercial Jockey Plaza'),
+'Regalos envueltos', 2, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Larco 123, Miraflores' AND destination_address = 'Circuito Magico del Agua'),
+'Camara fotografica', 1, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Larco 123, Miraflores' AND destination_address = 'Circuito Magico del Agua'),
+'Tripode para camara', 1, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Av. Brasil 789, Pueblo Libre' AND destination_address = 'Barranco'),
+'Instrumentos musicales', 2, 'Y');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Jr. Amazonas 987, Cercado de Lima' AND destination_address = 'Museo de la Nacion'),
+'Guias turisticas', 3, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Calle Real 258, Surquillo' AND destination_address = 'Parque de la Reserva'),
+'Equipo de ejercicio portatil', 1, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Calle San Martin 963, Magdalena' AND destination_address = 'Clinica San Felipe'),
+'Historias clinicas', 1, 'N');
+
+INSERT INTO DEVELOPER_RAMIREZ.TRIP_DETAILS (trip_id, description, quantity, is_fragile) VALUES
+((SELECT trip_id FROM DEVELOPER_RAMIREZ.TRIP WHERE origin_address = 'Jr. Ica 852, Lince' AND destination_address = 'Mercado Central de Lima'),
+'Productos para venta', 10, 'N');
+
+
+-- =====================================================
+-- 8. TABLA RESERVATION  (5 registros)
+-- =====================================================
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION (user_id, origin_address, destination_address, scheduled_date, scheduled_time, seats_requested, payment_method_id, total_cost, reservation_status, service_type_id, distance_meters, duration_seconds) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '12345678'),
+    'Av. Lima 123',
+    'Aeropuerto Jorge Chávez',
+    DATE '2023-12-15',
+    TIMESTAMP '2023-12-15 08:00:00',
+    3,
+    (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 1),
+    45.00,
+    'PENDIENTE',
+    (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Premium'),
+    15000,
+    2700
+);
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION (user_id, origin_address, destination_address, scheduled_date, scheduled_time, seats_requested, payment_method_id, total_cost, reservation_status, service_type_id, distance_meters, duration_seconds) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '34567890'),
+    'Av. Brasil 101',
+    'Centro Comercial Jockey Plaza',
+    DATE '2023-12-16',
+    TIMESTAMP '2023-12-16 14:30:00',
+    4,
+    (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'PLIN' AND ROWNUM = 1),
+    38.50,
+    'CONFIRMADA',
+    (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Familiar'),
+    12000,
+    2400
+);
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION (user_id, origin_address, destination_address, scheduled_date, scheduled_time, seats_requested, payment_method_id, total_cost, reservation_status, service_type_id, distance_meters, duration_seconds) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '56789012'),
+    'Av. Javier Prado 303',
+    'Universidad de Lima',
+    DATE '2023-12-17',
+    TIMESTAMP '2023-12-17 07:15:00',
+    2,
+    (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'TRANSFERENCIA' AND ROWNUM = 1),
+    22.00,
+    'PENDIENTE',
+    (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Ejecutivo'),
+    8000,
+    1800
+);
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION (user_id, origin_address, destination_address, scheduled_date, scheduled_time, seats_requested, payment_method_id, total_cost, reservation_status, service_type_id, distance_meters, duration_seconds) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '67890123'),
+    'Jr. Huancavelica 505',
+    'Clínica Internacional',
+    DATE '2023-12-18',
+    TIMESTAMP '2023-12-18 09:00:00',
+    1,
+    (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'EFECTIVO' AND ROWNUM = 1),
+    15.00,
+    'CONFIRMADA',
+    (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Económico'),
+    5000,
+    1200
+);
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION (user_id, origin_address, destination_address, scheduled_date, scheduled_time, seats_requested, payment_method_id, total_cost, reservation_status, service_type_id, distance_meters, duration_seconds) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '89012345'),
+    'Jr. Ica 707',
+    'Estación de Tren de Villa El Salvador',
+    DATE '2023-12-19',
+    TIMESTAMP '2023-12-19 16:45:00',
+    3,
+    (SELECT payment_method_id FROM DEVELOPER_RAMIREZ.PAYMENT_METHOD WHERE payment_type = 'YAPE' AND ROWNUM = 2),
+    28.00,
+    'PENDIENTE',
+    (SELECT service_type_id FROM DEVELOPER_FATAMA.SERVICE_TYPES WHERE name = 'Urbano'),
+    9000,
+    2100
+);
+
+
+-- =====================================================
+-- 9. TABLA RESERVATION_DETAIL   (15 registros)
+-- =====================================================
+
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 1), 1, 'Recoger maletas en hotel');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 1), 2, 'Comprar regalos en duty free');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 2), 1, 'Recoger a amigos en su casa');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 3), 1, 'Pasar por cafetería');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 4), 1, 'Recoger medicinas en farmacia');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 5), 1, 'Recoger equipaje adicional');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 6), 1, 'Pagar factura en banco');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 7), 1, 'Recoger documentos en oficina');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 8), 1, 'Comprar flores en tienda');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 9), 1, 'Recoger traje en tintorería');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 10), 1, 'Pasar por comida rápida');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 11), 1, 'Recoger paquete en oficina postal');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 12), 1, 'Comprar regalo de cumpleaños');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 13), 1, 'Recoger equipo deportivo');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 14), 1, 'Pasar por veterinaria');
+INSERT INTO DEVELOPER_FATAMA.RESERVATION_DETAIL (reservation_id, stop_order, stop_description) 
+VALUES ((SELECT reservation_id FROM DEVELOPER_FATAMA.RESERVATION WHERE ROWNUM = 15), 1, 'Recoger plantas en vivero');
+
+
+
+-- =====================================================
+-- 10. TABLA SHIPMENTS    (5 registros)
+-- =====================================================
+
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPMENTS (user_id, pickup_address, description_address, delivery_date, total_cost, status) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '12345678'),
+    'Av. Lima 123',
+    'Edificio Torre Azul, piso 5',
+    DATE '2023-12-20',
+    35.00,
+    'PENDIENTE'
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPMENTS (user_id, pickup_address, description_address, delivery_date, total_cost, status) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '34567890'),
+    'Av. Brasil 101',
+    'Casa con reja negra',
+    DATE '2023-12-21',
+    42.50,
+    'PENDIENTE'
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPMENTS (user_id, pickup_address, description_address, delivery_date, total_cost, status) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '56789012'),
+    'Av. Javier Prado 303',
+    'Oficina 302, edificio principal',
+    DATE '2023-12-22',
+    28.00,
+    'EN_CAMINO'
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPMENTS (user_id, pickup_address, description_address, delivery_date, total_cost, status) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '67890123'),
+    'Jr. Huancavelica 505',
+    'Departamento 201, portería izquierda',
+    DATE '2023-12-23',
+    19.75,
+    'ENTREGADO'
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPMENTS (user_id, pickup_address, description_address, delivery_date, total_cost, status) 
+VALUES (
+    (SELECT user_id FROM DEVELOPER_FATAMA.USERS WHERE document_number = '89012345'),
+    'Jr. Ica 707',
+    'Local 15, mercado central',
+    DATE '2023-12-24',
+    31.20,
+    'PENDIENTE'
+);
+
+
+-- =====================================================
+-- 11. TABLA SHIPPMENT_DETAIL    (5 registros)
+-- =====================================================
+
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPPMENT_DETAIL (shipment_id, package_description, destination_address, dimensions, recipient_name, recipient_phone, recipient_document_number, quantity, cost_package) 
+VALUES (
+    (SELECT shipment_id FROM DEVELOPER_BEINGOLEA.SHIPMENTS WHERE ROWNUM = 1),
+    'Documentos legales',
+    'Av. Arequipa 456, oficina 301',
+    '30x20x5cm',
+    'Maria Gomez',
+    '987654322',
+    '23456789',
+    1,
+    35.00
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPPMENT_DETAIL (shipment_id, package_description, destination_address, dimensions, recipient_name, recipient_phone, recipient_document_number, quantity, cost_package) 
+VALUES (
+    (SELECT shipment_id FROM DEVELOPER_BEINGOLEA.SHIPMENTS WHERE ROWNUM = 2),
+    'Equipo electrónico',
+    'Jr. Callao 789, departamento 402',
+    '50x40x30cm',
+    'Carlos Lopez',
+    '987654323',
+    'CNE123456789012',
+    2,
+    21.25
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPPMENT_DETAIL (shipment_id, package_description, destination_address, dimensions, recipient_name, recipient_phone, recipient_document_number, quantity, cost_package) 
+VALUES (
+    (SELECT shipment_id FROM DEVELOPER_BEINGOLEA.SHIPMENTS WHERE ROWNUM = 3),
+    'Muestras médicas',
+    'Clínica San Felipe, laboratorio 2',
+    '20x15x10cm',
+    'Dra. Ana Torres',
+    '987654324',
+    '34567890',
+    1,
+    28.00
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPPMENT_DETAIL (shipment_id, package_description, destination_address, dimensions, recipient_name, recipient_phone, recipient_document_number, quantity, cost_package) 
+VALUES (
+    (SELECT shipment_id FROM DEVELOPER_BEINGOLEA.SHIPMENTS WHERE ROWNUM = 4),
+    'Ropa deportiva',
+    'Av. La Marina 404, casa 23',
+    '60x40x20cm',
+    'Pedro Vargas',
+    '987654327',
+    'CNE987654321098',
+    3,
+    6.58
+);
+
+INSERT INTO DEVELOPER_BEINGOLEA.SHIPPMENT_DETAIL (shipment_id, package_description, destination_address, dimensions, recipient_name, recipient_phone, recipient_document_number, quantity, cost_package) 
+VALUES (
+    (SELECT shipment_id FROM DEVELOPER_BEINGOLEA.SHIPMENTS WHERE ROWNUM = 5),
+    'Material de oficina',
+    'Jr. Junin 202, piso 3',
+    '40x30x25cm',
+    'Luis Sanchez',
+    '987654325',
+    '45678901',
+    5,
+    6.24
+);
