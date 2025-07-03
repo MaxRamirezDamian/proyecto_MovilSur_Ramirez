@@ -2,8 +2,8 @@ package pe.edu.vallegrande.movilsurbackend.infrastructure.complement;
 
 
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.Vehicle;
+import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Vehicle.VehicleDto;
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.Driver;
-import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.VehicleDto;
 
 public class VehicleMapperManual {
     public static VehicleDto toDto(Vehicle v) {

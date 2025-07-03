@@ -1,6 +1,8 @@
-package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master;
+package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Vehicle;
 
 
+
+import java.util.UUID;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VehicleCreateDto {
+    private UUID driverId;
     private String licensePlate;
     private String brand;
     private String model;

@@ -2,7 +2,8 @@ package pe.edu.vallegrande.movilsurbackend.infrastructure.rest.master;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver_User_Dto;
+
+import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver.Driver_User_Dto;
 import pe.edu.vallegrande.movilsurbackend.infrastructure.service.master.DriverService;
 
 import java.util.List;

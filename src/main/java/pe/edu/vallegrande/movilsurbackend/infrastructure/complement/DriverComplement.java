@@ -5,7 +5,7 @@ import pe.edu.vallegrande.movilsurbackend.domain.enums.RolUser;
 import pe.edu.vallegrande.movilsurbackend.domain.enums.Status;
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.Driver;
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.User;
-import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver_User_Dto;
+import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver.Driver_User_Dto;
 
 import java.time.LocalDateTime;
 

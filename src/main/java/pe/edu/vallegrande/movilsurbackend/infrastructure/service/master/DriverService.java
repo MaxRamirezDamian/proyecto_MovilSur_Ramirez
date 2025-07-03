@@ -8,7 +8,7 @@ import pe.edu.vallegrande.movilsurbackend.domain.enums.Status;
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.Driver;
 import pe.edu.vallegrande.movilsurbackend.domain.model.master.User;
 import pe.edu.vallegrande.movilsurbackend.infrastructure.complement.DriverComplement;
-import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver_User_Dto;
+import pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver.Driver_User_Dto;
 import pe.edu.vallegrande.movilsurbackend.infrastructure.repository.master.DriverRepository;
 import pe.edu.vallegrande.movilsurbackend.infrastructure.repository.master.UserRepository;
 

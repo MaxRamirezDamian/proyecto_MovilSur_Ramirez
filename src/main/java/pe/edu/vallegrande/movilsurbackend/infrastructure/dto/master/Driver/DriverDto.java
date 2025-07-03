@@ -1,4 +1,4 @@
-package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master;
+package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Driver;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

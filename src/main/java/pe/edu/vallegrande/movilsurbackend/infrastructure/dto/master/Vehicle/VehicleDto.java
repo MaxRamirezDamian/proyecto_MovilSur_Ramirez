@@ -1,10 +1,9 @@
-package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master;
+package pe.edu.vallegrande.movilsurbackend.infrastructure.dto.master.Vehicle;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pe.edu.vallegrande.movilsurbackend.domain.model.master.Vehicle;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
